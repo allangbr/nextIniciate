@@ -1,4 +1,4 @@
-import {Anime2} from './export.js';
+import {Anime} from './export.js';
 
 export default function Home(){
   return (
@@ -6,7 +6,7 @@ export default function Home(){
         <h2>
           Viva Santana!
         </h2>
-        <Anime2/>
+        <Anime/>
      </div>
   )
 }
