@@ -1,3 +1,4 @@
+import {Anime} from "../components/export.js"
 import {Filme} from "../components/export.js"
 import {Lorem} from "../components/lorem.js"
 
