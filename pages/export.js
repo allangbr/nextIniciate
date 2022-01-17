@@ -1,4 +1,4 @@
-export function Anime(){
+function Anime(){
   return (
     <div>
        <h1>
@@ -7,3 +7,5 @@ export function Anime(){
     </div>
  )
 }
+
+export {Anime}
