@@ -18,5 +18,4 @@ export const Filme = ({Filme}) => {
     </div>
  )
 }
-export {Filme}
 
