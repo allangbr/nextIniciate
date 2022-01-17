@@ -1,6 +1,6 @@
-import {Anime} from "./export.js"
+// import {Anime} from "./export.js"
 import {Filme} from "./export.js"
-import {Lorem} from "./lorem.js"
+// import {Lorem} from "./lorem.js"
 
 
 export default function Home(){
@@ -9,9 +9,7 @@ export default function Home(){
         <h2>
           Viva Santana!
         </h2>
-        <Anime />
-        <Filme />
-        <Lorem />
+        <Filme filme="O Auto da Compadecida"/>
      </div>
   )
 }

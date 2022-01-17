@@ -1,20 +1,22 @@
-export function Anime(){
-  return (
-    <div>
-       <h1>
-         Dragon Ball!
-       </h1>
-    </div>
- )
-}
+// function Anime(){
+//   return (
+//     <div>
+//        <h1>
+//          Dragon Ball!
+//        </h1>
+//     </div>
+//  )
+// }
+// export {Anime}
 
-export function Filme(){
+export const Filme = ({Filme}) => {
   return (
     <div>
        <h1>
-         O auto da compadecida!
+        {Filme}
        </h1>
     </div>
  )
 }
+export {Filme}
 
