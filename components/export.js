@@ -1,13 +1,13 @@
-// function Anime(){
-//   return (
-//     <div>
-//        <h1>
-//          Dragon Ball!
-//        </h1>
-//     </div>
-//  )
-// }
-// export {Anime}
+function Anime(){
+  return (
+    <div>
+       <h1>
+         Dragon Ball!
+       </h1>
+    </div>
+ )
+}
+export {Anime}
 
 export const Filme = ({filme}) => {
   return (
