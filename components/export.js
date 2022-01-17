@@ -1,4 +1,4 @@
-function Anime(){
+export function Anime(){
   return (
     <div>
        <h1>
@@ -7,7 +7,6 @@ function Anime(){
     </div>
  )
 }
-export {Anime}
 
 export const Filme = ({filme}) => {
   return (

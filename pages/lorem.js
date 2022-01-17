@@ -1,4 +1,4 @@
-export function Lorem(){
+export default function Lorem(){
   return (
      <div>
         <h1>
