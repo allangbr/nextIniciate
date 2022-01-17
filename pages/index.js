@@ -1,4 +1,4 @@
-import {Anime} from 'export.js';
+import {Anime} from './export.js';
 
 export default function Home(){
   return (
