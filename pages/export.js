@@ -1,4 +1,4 @@
-function Anime(){
+export function Anime(){
   return (
     <div>
        <h1>
@@ -8,4 +8,13 @@ function Anime(){
  )
 }
 
-export {Anime}
+export function Filme(){
+  return (
+    <div>
+       <h1>
+         O auto da compadecida!
+       </h1>
+    </div>
+ )
+}
+

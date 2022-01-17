@@ -1,4 +1,4 @@
-export default function Teste(){
+export function Lorem(){
   return (
      <div>
         <h1>
