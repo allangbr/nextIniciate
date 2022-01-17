@@ -1,6 +1,5 @@
-import {Anime} from "./export.js"
 import {Filme} from "../components/export.js"
-import {Lorem} from "./lorem.js"
+import {Lorem} from "../components/lorem.js"
 
 
 export default function Home(){
