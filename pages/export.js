@@ -9,11 +9,11 @@
 // }
 // export {Anime}
 
-export const Filme = ({Filme}) => {
+export const Filme = ({filme}) => {
   return (
     <div>
        <h1>
-        {Filme}
+        {filme}
        </h1>
     </div>
  )
