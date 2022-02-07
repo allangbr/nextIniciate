@@ -22,11 +22,14 @@ export default function Home(){
         <Link href="/paginasInternas/novaPagina">
           <a>Nova Pagina</a>
         </Link>
-        <Link href="/2012">
+        <Link href="/paginasInternas/2012">
           <a>Movies</a>
         </Link>
         <Link href="/paginasInternas/about">
           <a>Sobre nós</a>
+        </Link>
+        <Link href="/paginasReceita4/exercicio1/2012">
+          <a>Receita 4</a>
         </Link>
       </nav>
       <h2>

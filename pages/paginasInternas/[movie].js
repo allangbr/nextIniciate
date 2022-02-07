@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Movies({data}){
+export default function MoviesReceita3({data}){
   return (
     <div>
       <style jsx>{`
@@ -55,8 +55,7 @@ export default function Movies({data}){
 }
 
 export async function getServerSideProps(context){
-  //const res = await fetch(`http://www.omdbapi.com/?apikey=5d61b462&s=bagdad`)
-  const res = await fetch(`http://www.omdbapi.com/?apikey=5d61b462&s=${context.params.query}`)
+  const res = await fetch(`http://www.omdbapi.com/?apikey=5d61b462&s=${context.params.movie}`)
   const data = await res.json()
 
   return {
