@@ -31,6 +31,9 @@ export default function Home(){
         <Link href="/paginasReceita4/exercicio1/2012">
           <a>Receita 4</a>
         </Link>
+        <Link href="/paginasReceita5/exercicio1/movies3">
+          <a>Receita 5</a>
+        </Link>
       </nav>
       <h2>
         Viva Santana!
