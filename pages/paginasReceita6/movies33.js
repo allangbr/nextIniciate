@@ -19,7 +19,7 @@ export default function Movies33(){
       let title = document.getElementById('titleSearchString').value
       let year = document.getElementById('yearSearchString').value
 
-      if(title.length == 0 & year.length == 0){
+      if(title.length == 0 || year.length == 0){
         alert("O preenchimento dos campos de busca e ano é obrigatório!")
       } else{ 
         if (state.url === '') {
