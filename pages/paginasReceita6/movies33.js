@@ -38,7 +38,6 @@ export default function Movies33(){
 }
 
 export function TheMovies({data,show}){
-  console.log(data)
   if (!show) return (<div></div>)
 
   if (data.Response == "False") return (<div>Não foi encontrado nenhum resultado com a chave inserida!</div>)
